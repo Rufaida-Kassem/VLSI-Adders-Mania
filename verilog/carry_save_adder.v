@@ -9,6 +9,7 @@ assign S = S0 ^ Cin;
 assign Cout = (S0 & Cin) | C0;
     
 endmodule
+
 module CSA (X, Y, Cin, S, Cout,OF);
 input [31:0] X, Y;
 input Cin;
@@ -51,6 +52,6 @@ generate
         FullAdder FA(S1[i], Cout0[i], Cin1[i], S2[i], Cin1[i+1]);
     end
 endgenerate
-assign OF = Cout ^Cin1[31];
+assign OF = (X[31] == Y[31])? (X[31] ^ S[31]) : 'b0;
 
 endmodule
