@@ -1,0 +1,36 @@
+Report Physical info: 
+------------------------+-------------+-----------+------------
+                        |             |Area (squm)|Leakage (uW)
+------------------------+-------------+-----------+------------
+Design Name             |cbpa32       |           |            
+  Total Instances       |          207|        258|       5.682
+    Macros              |            0|          0|       0.000
+    Pads                |            0|          0|       0.000
+    Phys                |            0|          0|       0.000
+    Blackboxes          |            0|          0|       0.000
+    Cells               |          207|        258|       5.682
+      Buffers           |            0|          0|       0.000
+      Inverters         |            0|          0|       0.000
+      Clock-Gates       |            0|          0|       0.000
+      Combinational     |          207|        258|       5.682
+      Latches           |            0|          0|       0.000
+      FlipFlops         |            0|          0|       0.000
+       Single-Bit FF    |            0|          0|       0.000
+       Multi-Bit FF     |            0|          0|       0.000
+       Clock-Gated      |            0|           |            
+       Bits             |            0|          0|       0.000
+         Load-Enabled   |            0|           |            
+         Clock-Gated    |            0|           |            
+  Tristate Pin Count    |            0|           |            
+Physical Info           |Placed       |           |            
+  Chip Size (mm x mm)   |0.081 x 0.081|       6518|            
+  Fixed Cell Area       |             |          0|            
+    Phys Only           |            0|          0|            
+  Placeable Area        |             |        406|            
+  Movable Cell Area     |             |        258|            
+  Utilization (%)       |           63|           |            
+  Chip Utilization (%)  |           63|           |            
+  Total Wire Length (mm)|        4.161|           |            
+  Longest Wire (mm)     |        0.044|           |            
+  Average Wire (mm)     |        0.042|           |            
+------------------------+-------------+-----------+------------
