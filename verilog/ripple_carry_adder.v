@@ -19,7 +19,7 @@ module rippe_adder #(parameter w = 32)(X, Y, Cin, S, Cout, OF);
  wire [w:0] C;
  assign C[0] = Cin;
  assign Cout = C[w-1];
- assign OF = ~(X[W - 1] ^ Y[w - 1]) & (C[w-1] ^ C[w-2]);
+ assign OF = ~(X[w - 1] ^ Y[w - 1]) & (C[w-1] ^ C[w-2]);
 genvar i;
 generate
     for (i = 0; i < w; i = i + 1) begin
