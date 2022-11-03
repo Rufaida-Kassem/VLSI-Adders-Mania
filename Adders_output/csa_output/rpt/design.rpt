@@ -2,17 +2,17 @@ Report Physical info:
 ------------------------+-------------+-----------+------------
                         |             |Area (squm)|Leakage (uW)
 ------------------------+-------------+-----------+------------
-Design Name             |cbpa         |           |            
-  Total Instances       |          207|        258|       5.682
+Design Name             |csa32        |           |            
+  Total Instances       |          211|        263|       5.792
     Macros              |            0|          0|       0.000
     Pads                |            0|          0|       0.000
     Phys                |            0|          0|       0.000
     Blackboxes          |            0|          0|       0.000
-    Cells               |          207|        258|       5.682
+    Cells               |          211|        263|       5.792
       Buffers           |            0|          0|       0.000
       Inverters         |            0|          0|       0.000
       Clock-Gates       |            0|          0|       0.000
-      Combinational     |          207|        258|       5.682
+      Combinational     |          211|        263|       5.792
       Latches           |            0|          0|       0.000
       FlipFlops         |            0|          0|       0.000
        Single-Bit FF    |            0|          0|       0.000
@@ -23,14 +23,14 @@ Design Name             |cbpa         |           |
          Clock-Gated    |            0|           |            
   Tristate Pin Count    |            0|           |            
 Physical Info           |Placed       |           |            
-  Chip Size (mm x mm)   |0.081 x 0.081|       6518|            
+  Chip Size (mm x mm)   |0.081 x 0.081|       6552|            
   Fixed Cell Area       |             |          0|            
     Phys Only           |            0|          0|            
-  Placeable Area        |             |        406|            
-  Movable Cell Area     |             |        258|            
-  Utilization (%)       |           63|           |            
-  Chip Utilization (%)  |           63|           |            
-  Total Wire Length (mm)|        4.161|           |            
+  Placeable Area        |             |        410|            
+  Movable Cell Area     |             |        263|            
+  Utilization (%)       |           64|           |            
+  Chip Utilization (%)  |           64|           |            
+  Total Wire Length (mm)|        4.171|           |            
   Longest Wire (mm)     |        0.044|           |            
   Average Wire (mm)     |        0.042|           |            
 ------------------------+-------------+-----------+------------

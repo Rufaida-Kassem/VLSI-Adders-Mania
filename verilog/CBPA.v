@@ -31,7 +31,7 @@ assign Cout = c[n - 1];
 assign OF = ~(R[n - 1] ^ T[n - 1]) & (c[n - 1] ^ c[n - 2]);
 endmodule
 
-module cbpa32 #(parameter n = 32)(
+module cbpa #(parameter n = 32)(
     input [n - 1:0] R,
     input [n - 1:0] T,
     input Cin,
