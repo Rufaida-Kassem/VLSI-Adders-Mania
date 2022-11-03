@@ -24,29 +24,21 @@ module CLA_adder
   wire [WIDTH:0]   Cin_P;
   wire [WIDTH-1:0]   w_G, w_P, Sum;
   wire [WIDTH:0]     dummyCout;
-  // Create the Full Adders
-  genvar i;
-  generate
-    for (i=0; i<WIDTH; i=i+1) 
-      begin
-	full_adder FA(A[i],B[i],Cin_P[i],Sum[i],dummyCout[i]);
-      end
-  endgenerate
- 
 
-  // Create the Carry Terms:
+  // CLA Logic
   genvar             j;
   generate
     for (j=0; j<WIDTH; j=j+1) 
       begin
         assign w_G[j]   = A[j] & B[j];
-        assign w_P[j]   = A[j] | B[j];
+        assign w_P[j]   = A[j] ^ B[j];
         assign Cin_P[j+1] = w_G[j] | (w_P[j] & Cin_P[j]);
+        assign Sum[j] = Cin_P[j] ^ w_P[j];
       end
   endgenerate
-   
+  
   assign Cin_P[0] = Cin; 
   assign Result = {Cin_P[WIDTH], Sum};   // Verilog Concatenation
   assign Overflow = ~(A[WIDTH - 1] ^ B[WIDTH - 1]) & (A[WIDTH - 1] ^ Result[WIDTH - 1]);
- 
+
 endmodule
