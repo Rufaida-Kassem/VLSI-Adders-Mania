@@ -2,17 +2,17 @@ Report Physical info:
 ------------------------+-------------+-----------+------------
                         |             |Area (squm)|Leakage (uW)
 ------------------------+-------------+-----------+------------
-Design Name             |VerilogAdder |           |            
-  Total Instances       |           32|        136|       2.424
+Design Name             |CSA          |           |            
+  Total Instances       |          192|        248|       5.791
     Macros              |            0|          0|       0.000
     Pads                |            0|          0|       0.000
     Phys                |            0|          0|       0.000
     Blackboxes          |            0|          0|       0.000
-    Cells               |           32|        136|       2.424
+    Cells               |          192|        248|       5.791
       Buffers           |            0|          0|       0.000
-      Inverters         |            0|          0|       0.000
+      Inverters         |           31|         16|       0.445
       Clock-Gates       |            0|          0|       0.000
-      Combinational     |           32|        136|       2.424
+      Combinational     |          161|        231|       5.346
       Latches           |            0|          0|       0.000
       FlipFlops         |            0|          0|       0.000
        Single-Bit FF    |            0|          0|       0.000
@@ -23,14 +23,14 @@ Design Name             |VerilogAdder |           |
          Clock-Gated    |            0|           |            
   Tristate Pin Count    |            0|           |            
 Physical Info           |Placed       |           |            
-  Chip Size (mm x mm)   |0.075 x 0.075|       5635|            
+  Chip Size (mm x mm)   |0.080 x 0.080|       6450|            
   Fixed Cell Area       |             |          0|            
     Phys Only           |            0|          0|            
-  Placeable Area        |             |        210|            
-  Movable Cell Area     |             |        136|            
-  Utilization (%)       |           64|           |            
-  Chip Utilization (%)  |           64|           |            
-  Total Wire Length (mm)|        3.839|           |            
-  Longest Wire (mm)     |        0.041|           |            
-  Average Wire (mm)     |        0.039|           |            
+  Placeable Area        |             |        395|            
+  Movable Cell Area     |             |        248|            
+  Utilization (%)       |           62|           |            
+  Chip Utilization (%)  |           62|           |            
+  Total Wire Length (mm)|        4.140|           |            
+  Longest Wire (mm)     |        0.044|           |            
+  Average Wire (mm)     |        0.042|           |            
 ------------------------+-------------+-----------+------------

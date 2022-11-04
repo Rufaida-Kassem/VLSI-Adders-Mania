@@ -1,5 +1,6 @@
 #
 # Created by 
-#   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Thu Nov  3 16:51:00 2022
+#   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Fri Nov  4 16:06:23 2022
 # (C) Mentor Graphics Corporation
 #
+set_port_attributes -elements {.} -attribute {related_supply_default_primary TRUE}
