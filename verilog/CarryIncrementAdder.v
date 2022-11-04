@@ -28,6 +28,6 @@ module CarryIncrementAdder (
     assign sum[29] = (tempCarry1 & tempSum[0] & tempSum[1] & tempSum[2] & tempSum[3] & tempSum[4] & tempSum[5] & tempSum[6] & tempSum[7] & tempSum[8] & tempSum[9] & tempSum[10] & tempSum[11] & tempSum[12]) ^ tempSum[13];
     assign sum[30] = (tempCarry1 & tempSum[0] & tempSum[1] & tempSum[2] & tempSum[3] & tempSum[4] & tempSum[5] & tempSum[6] & tempSum[7] & tempSum[8] & tempSum[9] & tempSum[10] & tempSum[11] & tempSum[12] & tempSum[13]) ^ tempSum[14];
     assign sum[31] = (tempCarry1 & tempSum[0] & tempSum[1] & tempSum[2] & tempSum[3] & tempSum[4] & tempSum[5] & tempSum[6] & tempSum[7] & tempSum[8] & tempSum[9] & tempSum[10] & tempSum[11] & tempSum[12] & tempSum[13] & tempSum[14]) ^ tempSum[15];
-    assign Cout = (tempCarry1 & tempSum[0] & tempSum[1] & tempSum[2] & tempSum[3] & tempSum[4] & tempSum[5] & tempSum[6] & tempSum[7] & tempSum[8] & tempSum[9] & tempSum[10] & tempSum[11] & tempSum[12] & tempSum[13] & tempSum[14] & tempSum[15]) | tempCarry2;
+    assign Cout = (tempCarry1 & tempSum[0] & tempSum[1] & tempSum[2] & tempSum[3] & tempSum[4] & tempSum[5] & tempSum[6] & tempSum[7] & tempSum[8] & tempSum[9] & tempSum[10] & tempSum[11] & tempSum[12] & tempSum[13] & tempSum[14] & tempSum[15]) & tempCarry2;
     assign of = ~(a[31] ^ b[31]) & (a[31] ^ sum[31]);
 endmodule
