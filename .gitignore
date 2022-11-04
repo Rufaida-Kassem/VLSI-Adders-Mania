@@ -1,0 +1,13 @@
+*.qpf
+*.qsf
+*.bak
+simulation/
+work/
+incremental_db/
+db/
+output_files/
+.vscode
+transcript
+*.mti
+*.mpf
+*.wlf
