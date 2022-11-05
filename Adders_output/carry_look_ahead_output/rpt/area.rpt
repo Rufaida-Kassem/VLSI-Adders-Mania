@@ -1,0 +1,14 @@
+Report Instance Areas: 
+-----+------------------+--------------+-----+---------
+     |Instance          |Module        |Cells|Cell Area
+-----+------------------+--------------+-----+---------
+1    |top               |              |  107|      198
+2    |  genblk1_0_stage1|CLA_4bit__1_7 |   11|       23
+3    |  genblk1_1_stage1|CLA_4bit__1_15|   11|       23
+4    |  genblk1_2_stage1|CLA_4bit__1_23|   11|       23
+5    |  genblk1_3_stage1|CLA_4bit__1_31|   11|       23
+6    |  genblk1_4_stage1|CLA_4bit__1_39|   11|       23
+7    |  genblk1_5_stage1|CLA_4bit__1_47|   11|       23
+8    |  genblk1_6_stage1|CLA_4bit__1_55|   11|       23
+9    |  genblk1_7_stage1|CLA_4bit      |   11|       23
+-----+------------------+--------------+-----+---------

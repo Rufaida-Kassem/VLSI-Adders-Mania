@@ -1,0 +1,53 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project fpa
+# Compile of carry_save_adder.v was successful.
+# Compile of FloatingPoint.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fpu -voptargs=+acc
+# vsim work.fpu -voptargs="+acc" 
+# Start time: 17:02:18 on Nov 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fpu(fast)
+# Loading work.adder(fast)
+# Loading work.addition_normaliser(fast)
+# Loading work.CSA(fast)
+# Loading work.FullAdder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: D:/CUFE_CMP_2024/Third_year/first_semester/CMP3020_VLSI/mini-project#1/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /fpu/A1/c1 File: D:/CUFE_CMP_2024/Third_year/first_semester/CMP3020_VLSI/mini-project#1/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v Line: 114
+add wave -position end  sim:/fpu/A
+add wave -position end  sim:/fpu/a_exponent
+add wave -position end  sim:/fpu/a_mantissa
+add wave -position end  sim:/fpu/a_sign
+add wave -position end  sim:/fpu/adder_a_in
+add wave -position end  sim:/fpu/adder_b_in
+add wave -position end  sim:/fpu/adder_out
+add wave -position end  sim:/fpu/B
+add wave -position end  sim:/fpu/b_exponent
+add wave -position end  sim:/fpu/b_mantissa
+add wave -position end  sim:/fpu/b_sign
+add wave -position end  sim:/fpu/O
+add wave -position end  sim:/fpu/o_exponent
+add wave -position end  sim:/fpu/o_mantissa
+add wave -position end  sim:/fpu/o_sign
+force -freeze sim:/fpu/A 32'hC207C28F 0
+force -freeze sim:/fpu/B 32'h4243B852 0
+run
+run
+force -freeze sim:/fpu/A 32'b11000010000001111100001010001111 0
+force -freeze sim:/fpu/B 32'b01000010010000111011100001010001 0
+run
+# End time: 17:43:39 on Nov 04,2022, Elapsed time: 0:41:21
+# Errors: 0, Warnings: 6

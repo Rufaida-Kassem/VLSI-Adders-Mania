@@ -1,0 +1,104 @@
+Report Instance Areas: 
+-----+--------------------+------------------+-----+---------
+     |Instance            |Module            |Cells|Cell Area
+-----+--------------------+------------------+-----+---------
+1    |top                 |                  |  351|      435
+2    |  fa01              |fulladder__1_68   |    2|        3
+3    |  fa00              |fulladder__1_71   |    2|        3
+4    |  mux_carry1        |multiplexer2__1_1 |    1|        2
+5    |  mux_carry2        |multiplexer2__1_3 |    1|        2
+6    |  genblk1_1_fa1     |fulladder__1_74   |    5|        6
+7    |  genblk1_2_fa1     |fulladder__1_77   |    5|        6
+8    |  genblk1_3_fa1     |fulladder__1_80   |    5|        6
+9    |  genblk1_4_fa1     |fulladder__1_83   |    5|        6
+10   |  genblk1_5_fa1     |fulladder__1_86   |    5|        6
+11   |  genblk1_6_fa1     |fulladder__1_89   |    5|        6
+12   |  genblk1_7_fa1     |fulladder__1_92   |    5|        6
+13   |  genblk1_8_fa1     |fulladder__1_95   |    5|        6
+14   |  genblk1_9_fa1     |fulladder__1_98   |    5|        6
+15   |  genblk1_10_fa1    |fulladder__1_101  |    5|        6
+16   |  genblk1_11_fa1    |fulladder__1_104  |    5|        6
+17   |  genblk1_12_fa1    |fulladder__1_107  |    5|        6
+18   |  genblk1_13_fa1    |fulladder__1_110  |    5|        6
+19   |  genblk1_14_fa1    |fulladder__1_113  |    5|        6
+20   |  genblk1_15_fa1    |fulladder__1_116  |    5|        6
+21   |  genblk1_16_fa1    |fulladder__1_119  |    5|        6
+22   |  genblk1_17_fa1    |fulladder__1_122  |    5|        6
+23   |  genblk1_18_fa1    |fulladder__1_125  |    5|        6
+24   |  genblk1_19_fa1    |fulladder__1_128  |    5|        6
+25   |  genblk1_20_fa1    |fulladder__1_131  |    5|        6
+26   |  genblk1_21_fa1    |fulladder__1_134  |    5|        6
+27   |  genblk1_22_fa1    |fulladder__1_137  |    5|        6
+28   |  genblk1_23_fa1    |fulladder__1_140  |    5|        6
+29   |  genblk1_24_fa1    |fulladder__1_143  |    5|        6
+30   |  genblk1_25_fa1    |fulladder__1_146  |    5|        6
+31   |  genblk1_26_fa1    |fulladder__1_149  |    5|        6
+32   |  genblk1_27_fa1    |fulladder__1_152  |    5|        6
+33   |  genblk1_28_fa1    |fulladder__1_155  |    5|        6
+34   |  genblk1_29_fa1    |fulladder__1_158  |    5|        6
+35   |  genblk1_30_fa1    |fulladder__1_161  |    5|        6
+36   |  genblk1_31_fa1    |fulladder__1_164  |    5|        6
+37   |  genblk1_1_fa0     |fulladder__1_167  |    5|        6
+38   |  genblk1_2_fa0     |fulladder__1_170  |    5|        6
+39   |  genblk1_3_fa0     |fulladder__1_173  |    5|        6
+40   |  genblk1_4_fa0     |fulladder__1_176  |    5|        6
+41   |  genblk1_5_fa0     |fulladder__1_179  |    5|        6
+42   |  genblk1_6_fa0     |fulladder__1_182  |    5|        6
+43   |  genblk1_7_fa0     |fulladder__1_185  |    5|        6
+44   |  genblk1_8_fa0     |fulladder__1_188  |    5|        6
+45   |  genblk1_9_fa0     |fulladder__1_191  |    5|        6
+46   |  genblk1_10_fa0    |fulladder__1_194  |    5|        6
+47   |  genblk1_11_fa0    |fulladder__1_197  |    5|        6
+48   |  genblk1_12_fa0    |fulladder__1_200  |    5|        6
+49   |  genblk1_13_fa0    |fulladder__1_203  |    5|        6
+50   |  genblk1_14_fa0    |fulladder__1_206  |    5|        6
+51   |  genblk1_15_fa0    |fulladder__1_209  |    5|        6
+52   |  genblk1_16_fa0    |fulladder__1_212  |    5|        6
+53   |  genblk1_17_fa0    |fulladder__1_215  |    5|        6
+54   |  genblk1_18_fa0    |fulladder__1_218  |    5|        6
+55   |  genblk1_19_fa0    |fulladder__1_221  |    5|        6
+56   |  genblk1_20_fa0    |fulladder__1_224  |    5|        6
+57   |  genblk1_21_fa0    |fulladder__1_227  |    5|        6
+58   |  genblk1_22_fa0    |fulladder__1_230  |    5|        6
+59   |  genblk1_23_fa0    |fulladder__1_233  |    5|        6
+60   |  genblk1_24_fa0    |fulladder__1_236  |    5|        6
+61   |  genblk1_25_fa0    |fulladder__1_239  |    5|        6
+62   |  genblk1_26_fa0    |fulladder__1_242  |    5|        6
+63   |  genblk1_27_fa0    |fulladder__1_245  |    5|        6
+64   |  genblk1_28_fa0    |fulladder__1_248  |    5|        6
+65   |  genblk1_29_fa0    |fulladder__1_251  |    5|        6
+66   |  genblk1_30_fa0    |fulladder__1_254  |    5|        6
+67   |  genblk1_31_fa0    |fulladder         |    5|        6
+68   |  genblk2_0_mux_sum |multiplexer2__1_5 |    1|        2
+69   |  genblk2_1_mux_sum |multiplexer2__1_7 |    1|        2
+70   |  genblk2_2_mux_sum |multiplexer2__1_9 |    1|        2
+71   |  genblk2_3_mux_sum |multiplexer2__1_11|    1|        2
+72   |  genblk2_4_mux_sum |multiplexer2__1_13|    1|        2
+73   |  genblk2_5_mux_sum |multiplexer2__1_15|    1|        2
+74   |  genblk2_6_mux_sum |multiplexer2__1_17|    1|        2
+75   |  genblk2_7_mux_sum |multiplexer2__1_19|    1|        2
+76   |  genblk2_8_mux_sum |multiplexer2__1_21|    1|        2
+77   |  genblk2_9_mux_sum |multiplexer2__1_23|    1|        2
+78   |  genblk2_10_mux_sum|multiplexer2__1_25|    1|        2
+79   |  genblk2_11_mux_sum|multiplexer2__1_27|    1|        2
+80   |  genblk2_12_mux_sum|multiplexer2__1_29|    1|        2
+81   |  genblk2_13_mux_sum|multiplexer2__1_31|    1|        2
+82   |  genblk2_14_mux_sum|multiplexer2__1_33|    1|        2
+83   |  genblk2_15_mux_sum|multiplexer2__1_35|    1|        2
+84   |  genblk2_16_mux_sum|multiplexer2__1_37|    1|        2
+85   |  genblk2_17_mux_sum|multiplexer2__1_39|    1|        2
+86   |  genblk2_18_mux_sum|multiplexer2__1_41|    1|        2
+87   |  genblk2_19_mux_sum|multiplexer2__1_43|    1|        2
+88   |  genblk2_20_mux_sum|multiplexer2__1_45|    1|        2
+89   |  genblk2_21_mux_sum|multiplexer2__1_47|    1|        2
+90   |  genblk2_22_mux_sum|multiplexer2__1_49|    1|        2
+91   |  genblk2_23_mux_sum|multiplexer2__1_51|    1|        2
+92   |  genblk2_24_mux_sum|multiplexer2__1_53|    1|        2
+93   |  genblk2_25_mux_sum|multiplexer2__1_55|    1|        2
+94   |  genblk2_26_mux_sum|multiplexer2__1_57|    1|        2
+95   |  genblk2_27_mux_sum|multiplexer2__1_59|    1|        2
+96   |  genblk2_28_mux_sum|multiplexer2__1_61|    1|        2
+97   |  genblk2_29_mux_sum|multiplexer2__1_63|    1|        2
+98   |  genblk2_30_mux_sum|multiplexer2__1_65|    1|        2
+99   |  genblk2_31_mux_sum|multiplexer2      |    1|        2
+-----+--------------------+------------------+-----+---------

@@ -1,0 +1,40 @@
+Report Instance Areas: 
+-----+-----------------+------------------+-----+---------
+     |Instance         |Module            |Cells|Cell Area
+-----+-----------------+------------------+-----+---------
+1    |top              |                  |  158|      203
+2    |  rca1           |rippe_adder__1_125|   62|       79
+3    |    genblk1_0_FA |FullAdder__1_124  |    4|        5
+4    |    genblk1_1_FA |FullAdder__1_120  |    4|        5
+5    |    genblk1_2_FA |FullAdder__1_116  |    4|        5
+6    |    genblk1_3_FA |FullAdder__1_112  |    4|        5
+7    |    genblk1_4_FA |FullAdder__1_108  |    4|        5
+8    |    genblk1_5_FA |FullAdder__1_104  |    4|        5
+9    |    genblk1_6_FA |FullAdder__1_100  |    4|        5
+10   |    genblk1_7_FA |FullAdder__1_96   |    4|        5
+11   |    genblk1_8_FA |FullAdder__1_92   |    4|        5
+12   |    genblk1_9_FA |FullAdder__1_88   |    4|        5
+13   |    genblk1_10_FA|FullAdder__1_84   |    4|        5
+14   |    genblk1_11_FA|FullAdder__1_80   |    4|        5
+15   |    genblk1_12_FA|FullAdder__1_76   |    4|        5
+16   |    genblk1_13_FA|FullAdder__1_72   |    4|        5
+17   |    genblk1_14_FA|FullAdder__1_68   |    4|        5
+18   |    genblk1_15_FA|FullAdder__1_64   |    2|        3
+19   |  rca2           |rippe_adder       |   60|       77
+20   |    genblk1_0_FA |FullAdder__1_3    |    2|        3
+21   |    genblk1_1_FA |FullAdder__1_7    |    4|        5
+22   |    genblk1_2_FA |FullAdder__1_11   |    4|        5
+23   |    genblk1_3_FA |FullAdder__1_15   |    4|        5
+24   |    genblk1_4_FA |FullAdder__1_19   |    4|        5
+25   |    genblk1_5_FA |FullAdder__1_23   |    4|        5
+26   |    genblk1_6_FA |FullAdder__1_27   |    4|        5
+27   |    genblk1_7_FA |FullAdder__1_31   |    4|        5
+28   |    genblk1_8_FA |FullAdder__1_35   |    4|        5
+29   |    genblk1_9_FA |FullAdder__1_39   |    4|        5
+30   |    genblk1_10_FA|FullAdder__1_43   |    4|        5
+31   |    genblk1_11_FA|FullAdder__1_47   |    4|        5
+32   |    genblk1_12_FA|FullAdder__1_51   |    4|        5
+33   |    genblk1_13_FA|FullAdder__1_55   |    4|        5
+34   |    genblk1_14_FA|FullAdder__1_59   |    4|        5
+35   |    genblk1_15_FA|FullAdder         |    2|        3
+-----+-----------------+------------------+-----+---------
