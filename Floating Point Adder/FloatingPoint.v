@@ -1,8 +1,8 @@
 //IEEE 754 Single Precision ALU
-module fpu(A, B, O);
+module fpa(A, B, O, OF);
 	input [31:0] A, B;
 	output [31:0] O;
-
+output OF;
 	wire [31:0] O;
 	wire [7:0] a_exponent;
 	wire [23:0] a_mantissa;
@@ -25,18 +25,21 @@ module fpu(A, B, O);
     wire b_sign;
 	assign a_sign = A[31];
 	assign a_exponent[7:0] = A[30:23];
-	assign a_mantissa[23:0] = {1'b1, A[22:0]};
+	// assign a_mantissa[23:0] = {1'b1, A[22:0]};
+	assign a_mantissa[23:0] = A[23:0];
 
 	assign b_sign = B[31];
 	assign b_exponent[7:0] = B[30:23];
-	assign b_mantissa[23:0] = {1'b1, B[22:0]};
+	// assign b_mantissa[23:0] = {1'b0, B[22:0]};
+	assign b_mantissa[23:0] = B[23:0];
 
 
 	adder A1
 	(
 		.a(adder_a_in),
 		.b(adder_b_in),
-		.out(adder_out)
+		.out(adder_out),
+    .of(OF)
 	);
 
     //If a is NaN or b is zero return a
@@ -63,15 +66,13 @@ module fpu(A, B, O);
             o_mantissa = adder_out[22:0];
         end
     end
-    
-    
 endmodule
 
 
-module adder(a, b, out);
+module adder(a, b, out, of);
   input  [31:0] a, b;
   output [31:0] out;
-
+output of;
   wire [31:0] out;
 	reg a_sign;
 	reg [7:0] a_exponent;
@@ -105,13 +106,11 @@ module adder(a, b, out);
   assign out[31] = o_sign;
   assign out[30:23] = o_exponent;
   assign out[22:0] = o_mantissa[22:0];
-  wire dummy1;
-  wire dummy2;
-  reg  [23:0] CSA_IN1;
-  reg  [23:0] CSA_IN2;
-  wire  [23:0] CSA_SUM;
-  wire  CSA_COUT;
-  CSA #(24) c1(CSA_IN1, CSA_IN2, 0, CSA_SUM, CSA_COUT,dummy2);
+  reg  [23:0] CLA_IN1;
+  reg  [23:0] CLA_IN2;
+  wire  [23:0] CLA_SUM;
+  wire  CLA_COUT;
+  CLA_adder #(24) c1(CLA_IN1, CLA_IN2, 0, CLA_SUM, CLA_COUT,of);
  
   always @ ( * ) begin
 		a_sign = a[31];
@@ -133,61 +132,73 @@ module adder(a, b, out);
     if (a_exponent == b_exponent) begin // Equal exponents
         o_exponent = a_exponent;
 
-        CSA_IN1 = a_mantissa;
-        CSA_IN2 = b_mantissa;
-        o_mantissa[23:0]= CSA_SUM;
+        if (a_sign == b_sign) begin // Equal signs = add
+          CLA_IN1 = a_mantissa;
+          CLA_IN2 = b_mantissa;
+          o_mantissa[23:0]= CLA_SUM;
+            //Signify to shift
+          o_mantissa[24] = 1;
+          o_sign = a_sign;
 
-        // CSA #(24) c1 (a_mantissa, b_mantissa, 0, o_mantissa[23:0], dummy1,dummy2);
- 
-        //Signify to shift
-        o_mantissa[24] = 1;
-        o_sign = a_sign;
-      
+        end else begin // Opposite signs = subtract
+          o_mantissa[24] = 1'b0;
+          if(a_mantissa > b_mantissa) begin
+
+            CLA_IN1 = a_mantissa;
+            CLA_IN2 = ~b_mantissa; ///2's complement
+            o_mantissa[23:0] = CLA_SUM;
+            o_sign = a_sign;
+          end else begin
+            CLA_IN1 = ~a_mantissa;
+            CLA_IN2 = b_mantissa; ///2's complement
+            o_mantissa[23:0] = CLA_SUM;
+            o_sign = b_sign;
+          end
+        end
     end else begin //Unequal exponents
+      // o_mantissa[24] = 1'b0;
+
       if (a_exponent > b_exponent) begin // A is bigger
         o_exponent = a_exponent;
         o_sign = a_sign;
-
-
-        // ---------TODO: Change to our adder????-----------
         // By extending the MSB of a_exponent, b_exponent, MSB of a_exponent = 0, MSB of b_exponent = 1
         diff = a_exponent - b_exponent;
-    
-
-
-
         tmp_mantissa = b_mantissa >> diff;
         if (a_sign == b_sign) begin
-          // CSA #(24) c2 (a_mantissa, tmp_mantissa, 0, o_mantissa[23:0], o_mantissa[24],dummy2);
-          CSA_IN1 = a_mantissa;
-          CSA_IN2 = tmp_mantissa;
-          o_mantissa[24] = CSA_COUT;
-          o_mantissa[23:0]= CSA_SUM;
+
+          CLA_IN1 = a_mantissa;
+          CLA_IN2 = tmp_mantissa;
+          o_mantissa[23:0]= CLA_SUM;
+          o_mantissa[24] = CLA_COUT;
+
         end
         else begin
-        // ---------TODO: Change to our adder????-----------
         // By extending the MSB of a_exponent, b_exponent, MSB of a_exponent = 0, MSB of b_exponent = 1
-          	o_mantissa = a_mantissa - tmp_mantissa;
+
+          CLA_IN1 = a_mantissa;
+          CLA_IN2 = ~tmp_mantissa;
+          o_mantissa[23:0]= CLA_SUM;
+          o_mantissa[24] = 1'b0;
+
         end
       end else if (a_exponent < b_exponent) begin // B is bigger
         o_exponent = b_exponent;
         o_sign = b_sign;
-        // ---------TODO: Change to our adder????-----------
         // By extending the MSB of a_exponent, b_exponent, MSB of a_exponent = 0, MSB of b_exponent = 1
         diff = b_exponent - a_exponent;
         tmp_mantissa = a_mantissa >> diff;
         if (a_sign == b_sign) begin
-        // ---------TODO: Use our adder here--------
-          // CSA #(24) c3 (b_mantissa, tmp_mantissa, 0, o_mantissa[23:0], o_mantissa[24],dummy2);
-          CSA_IN1 = b_mantissa;
-          CSA_IN2 = tmp_mantissa;
-          o_mantissa[24] = CSA_COUT;
-          o_mantissa[23:0]= CSA_SUM;
-          // o_mantissa = b_mantissa + tmp_mantissa;
+          CLA_IN1 = b_mantissa;
+          CLA_IN2 = tmp_mantissa;
+          o_mantissa[23:0]= CLA_SUM;
+          o_mantissa[24] = CLA_COUT;
         end else begin
-        // ---------TODO: Change to our adder????-----------
         // By extending the MSB of a_exponent, b_exponent, MSB of a_exponent = 0, MSB of b_exponent = 1
-					o_mantissa = b_mantissa - tmp_mantissa;
+          CLA_IN1 = b_mantissa;
+          CLA_IN2 = ~tmp_mantissa;
+          o_mantissa[23:0]= CLA_SUM;
+          o_mantissa[24] = 0;
+
         end
       end
     end
@@ -280,5 +291,4 @@ module addition_normaliser(in_e, in_m, out_e, out_m);
 		end
   end
 endmodule
-
 

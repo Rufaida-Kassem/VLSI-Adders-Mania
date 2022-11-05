@@ -1,13 +1,9 @@
 {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v} {1 {vlog -work work -stats=none {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-
-} {} {}} {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v} {1 {vlog -work work -stats=none {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module FullAdder
--- Compiling module CSA
+-- Compiling module FPA_tb
 
 Top level modules:
-	CSA
+	FPA_tb
 
 } {} {}} {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v} {1 {vlog -work work -stats=none {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -17,5 +13,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	cbpa
+
+} {} {}} {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v} {1 {vlog -work work -stats=none {D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+-- Compiling module CSA
+
+Top level modules:
+	CSA
 
 } {} {}}

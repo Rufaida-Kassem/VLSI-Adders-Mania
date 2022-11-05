@@ -8,43 +8,43 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/Verilog/Save carry adder
+Z0 dE:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder
 vadder
-Z0 !s110 1667509431
+Z1 !s110 1667674523
 !i10b 1
-!s100 PbBbzbX@8a1;mU10ACTk41
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IEXoFKBML8PVeT7QZEZ_0I2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dD:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder
-Z4 w1667509329
-Z5 8D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v
-Z6 FD:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v
-!i122 23
-L0 71 136
+!s100 ?jYoo[`^nFhFk5ON`e>4T1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZJ=kI1I;@NV:cP@2lPn9C0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1667674442
+Z5 8E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v
+Z6 FE:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v
+!i122 46
+L0 74 145
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1667509431.000000
-Z9 !s107 D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v|
+Z8 !s108 1667674523.000000
+Z9 !s107 E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v|
 !i113 1
 Z11 o-work work
 Z12 tCvgOpt 0
 vaddition_normaliser
-R0
-!i10b 1
-!s100 4I09<S]2A3DhCRo1<G<Jm3
 R1
-I?TJWholkGiK3R7ik0o5Zm1
+!i10b 1
+!s100 K4B@S^0ei6B_jHQ5hi]840
 R2
+IB85YG0fSkan@GklaMBojN1
 R3
+R0
 R4
 R5
 R6
-!i122 23
-L0 209 75
+!i122 46
+L0 221 75
 R7
 r1
 !s85 0
@@ -55,170 +55,144 @@ R10
 !i113 1
 R11
 R12
-vcbpa
-R0
-!i10b 1
-!s100 941>bM8d<C6OA9SB?h`D51
+vCLA_4bit
 R1
-I0`=4;9g?`3SERM7cYGHZX1
+!i10b 1
+!s100 QY<mV7XVZ5fSi<7N[alE;1
 R2
+IJjlToKZ5C1ikO4gDm>N?;1
 R3
-Z13 w1667501422
-Z14 8D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v
-Z15 FD:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v
-!i122 25
-L0 34 17
+R0
+Z13 w1667672145
+Z14 8E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v
+Z15 FE:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v
+!i122 45
+L0 14 15
 R7
 r1
 !s85 0
 31
 R8
-!s107 D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v|
+Z16 !s107 E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v|
 !i113 1
 R11
 R12
-vCSA
-R0
-!i10b 1
-!s100 G9I6G>5<]@MOlOB37`U=61
+n@c@l@a_4bit
+vCLA_adder
 R1
-II>MoTf]UR[b:cb4:oLKOL1
-R2
-R3
-Z17 w1667509423
-Z18 8D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v
-Z19 FD:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v
-!i122 24
-L0 13 45
-R7
-r1
-!s85 0
-31
-R8
-Z20 !s107 D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v|
-Z21 !s90 -reportprogress|300|-work|work|-stats=none|D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/carry_save_adder.v|
-!i113 1
-R11
-R12
-n@c@s@a
-XFloatingPoint_v_unit
-DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1667508280
-Vb4UNZY@:3B0=PVzhlCEzk3
-r1
-!s85 0
 !i10b 1
-!s100 MHka=hCHD5eLcE@]aXl1V1
-Ib4UNZY@:3B0=PVzhlCEzk3
-!i103 1
-S1
+!s100 A9[NF26:]OlaAQZC7UJJG1
+R2
+IQMc@5S7F5Y7L:[G9QS55<0
 R3
-w1667508277
-R5
-R6
-Fcarry_save_adder.v
-!i122 9
-L0 1 0
-R7
-31
-!s108 1667508280.000000
-!s107 carry_save_adder.v|D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v|
-R10
-!i113 1
-R11
-R12
-n@floating@point_v_unit
-vfpu
 R0
-!i10b 1
-!s100 hoNYJV5`EOO:DF_[3KAJY3
-R1
-IlOThG=X;g1cfS_LGO0S^E1
-R2
-R3
-R4
-R5
-R6
-!i122 23
-L0 2 67
-R7
-r1
-!s85 0
-31
-R8
-R9
-R10
-!i113 1
-R11
-R12
-vfulladder
-R0
-!i10b 1
-!s100 cVfQfIIcPkHz5WzjB3f6c1
-R1
-IoOP>g8>4;D[9]a26BcdJ43
-R2
-R3
 R13
 R14
 R15
-!i122 25
-L0 1 10
+!i122 45
+L0 30 31
 R7
 r1
 !s85 0
 31
 R8
-Z22 !s107 D:/Engineering/CUFE/3rd Year (Computer) (2022)/First Semester/VLSI/Projects/Project 1/repo/VLSI-Adders-Mania/Floating Point Adder/CBPA.v|
 R16
-!i113 1
-R11
-R12
-vFullAdder
-R0
-!i10b 1
-!s100 [^?QSLd^zZE27;hlh2bfz3
-R1
-Io<1Jldd3gjd^am]zCKH813
-R2
-R3
 R17
-R18
-R19
-!i122 24
-L0 1 11
-R7
-r1
-!s85 0
-31
-R8
-R20
-R21
 !i113 1
 R11
 R12
-n@full@adder
-vrca32
-R0
-!i10b 1
-!s100 OzXofcQHYj0AOeIdb7jU:2
+n@c@l@a_adder
+vfpa
 R1
-IHclbzUA^LHm1EOg;efXG62
+!i10b 1
+!s100 hV_>hhbZ;MzXI6kTOclCd2
 R2
+IkK?GQ1VzaRWefXK=m<LaU3
 R3
-R13
-R14
-R15
-!i122 25
-L0 12 21
+R0
+R4
+R5
+R6
+!i122 46
+L0 2 70
 R7
 r1
 !s85 0
 31
 R8
-R22
+R9
+R10
+!i113 1
+R11
+R12
+vFPA_tb
+R1
+!i10b 1
+!s100 K4Uf:XmT^KZ9CdB<?_LkX2
+R2
+I?U18We9EzL4G8Wif5T^[13
+R3
+R0
+w1667674515
+8E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v
+FE:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v
+!i122 47
+L0 1 145
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FPA_tb.v|
+!i113 1
+R11
+R12
+n@f@p@a_tb
+vfpu
+!s110 1667672711
+!i10b 1
+!s100 X_?MCAkebNoQEYBS9blJn2
+R2
+I9@YHzM;=;bQaC[mzGA5TX2
+R3
+R0
+w1667672708
+R5
+R6
+!i122 4
+L0 2 68
+R7
+r1
+!s85 0
+31
+!s108 1667672711.000000
+R9
+R10
+!i113 1
+R11
+R12
+vfull_adder
+R1
+!i10b 1
+!s100 `lEUCUTjKZV6H3gYfV9Y23
+R2
+I6WTKQPlPkQ1bB3[8;Ozoj0
+R3
+R0
+R13
+R14
+R15
+!i122 45
+L0 1 12
+R7
+r1
+!s85 0
+31
+R8
 R16
+R17
 !i113 1
 R11
 R12
