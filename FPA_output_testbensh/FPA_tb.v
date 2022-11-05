@@ -89,6 +89,57 @@ $display("expected sum = %b\nactual  sum  = %b\nOver flow = %b\n\n ",expected, s
 end
 test_no = test_no + 1;
 
+//testing infinity
+a= 32'b01111111100000000000000000000000; //infinity
+b= 32'b11000001101101000010100011110101; //-22.52
+expected = 32'b01111111100000000000000000000000;//infinity
+#100
+if(sum==expected && overflow == 0)begin 
+$display("Test case %d PASSED SUCCESSFULY!\n", test_no);
+end else begin
+$display ("Test case %d FAILED\n", test_no);
+$display("expected sum = %b\nactual  sum  = %b\nOver flow = %b\n\n ",expected, sum,overflow);
+end
+test_no = test_no + 1;
+
+//testing NaN
+a= 32'b01111111100000000000000000000001; //NaN
+b= 32'b11000010010000111011100001010010; //-48.93
+expected = 32'b01111111100000000000000000000001;//NaN
+#100
+if(sum==expected && overflow == 0)begin 
+$display("Test case %d PASSED SUCCESSFULY!\n", test_no);
+end else begin
+$display ("Test case %d FAILED\n", test_no);
+$display("expected sum = %b\nactual  sum  = %b\nOver flow = %b\n\n ",expected, sum,overflow);
+end
+test_no = test_no + 1;
+
+//testing NUMBER + 0
+a= 32'b11000010010000111011100001010010; //48.93
+b= 32'b0; //0
+expected = 32'b11000010010000111011100001010010; //48.93
+#100
+if(sum==expected && overflow == 0)begin 
+$display("Test case %d PASSED SUCCESSFULY!\n", test_no);
+end else begin
+$display ("Test case %d FAILED\n", test_no);
+$display("expected sum = %b\nactual  sum  = %b\nOver flow = %b\n\n ",expected, sum,overflow);
+end
+test_no = test_no + 1;
+
+//tesing 0 + NUMBER
+b= 32'b11000010010000111011100001010010; //48.93
+a= 32'b0; //0
+expected = 32'b11000010010000111011100001010010; //48.93
+#100
+if(sum==expected && overflow == 0)begin 
+$display("Test case %d PASSED SUCCESSFULY!\n", test_no);
+end else begin
+$display ("Test case %d FAILED\n", test_no);
+$display("expected sum = %b\nactual  sum  = %b\nOver flow = %b\n\n ",expected, sum,overflow);
+end
+test_no = test_no + 1;
 
 end
 endmodule 

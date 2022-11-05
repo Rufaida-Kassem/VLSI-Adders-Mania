@@ -2,7 +2,8 @@
 module fpa(A, B, O, OF);
 	input [31:0] A, B;
 	output [31:0] O;
-output OF;
+  output reg OF;
+  wire OF_adder;
 	wire [31:0] O;
 	wire [7:0] a_exponent;
 	wire [23:0] a_mantissa;
@@ -39,7 +40,7 @@ output OF;
 		.a(adder_a_in),
 		.b(adder_b_in),
 		.out(adder_out),
-    .of(OF)
+    .of(OF_adder)
 	);
 
     //If a is NaN or b is zero return a
@@ -48,22 +49,26 @@ output OF;
             o_sign = a_sign;
             o_exponent = a_exponent;
             o_mantissa = a_mantissa;
+            OF = 0;
         //If b is NaN or a is zero return b
         end else if ((b_exponent == 255 && b_mantissa != 0) || (a_exponent == 0) && (a_mantissa == 0)) begin
             o_sign = b_sign;
             o_exponent = b_exponent;
             o_mantissa = b_mantissa;
+            OF = 0;
         //if a or b is inf return inf
         end else if ((a_exponent == 255) || (b_exponent == 255)) begin
             o_sign = a_sign ^ b_sign;
             o_exponent = 255;
             o_mantissa = 0;
+            OF = 0;
         end else begin // Passed all corner cases
             adder_a_in = A;
             adder_b_in = B;
             o_sign = adder_out[31];
             o_exponent = adder_out[30:23];
             o_mantissa = adder_out[22:0];
+            OF = OF_adder;
         end
     end
 endmodule
