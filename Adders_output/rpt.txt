@@ -1,0 +1,51 @@
+CLA
+time : 
+	MIN slack: 15979.3
+	MAX slack: 16080.6
+	MAX delay: 3520.7
+
+area:
+	0.077 x 0.077
+	5856
+
+power: 39.318909
+----------------------------------------
+
+CselectAdder
+time : 
+	MIN slack: 17182.8
+	MAX slack: 17244.8
+	MAX delay: 2317.2
+
+area:
+	0.087 x 0.087
+	7557
+
+power: 62.456585
+----------------------------------------
+
+CincrementAdder
+time : 
+	MIN slack: 16891.7
+	MAX slack: 16952.4
+	MAX delay: 2608.3
+
+area:
+	0.078 x 0.078
+	6126
+
+power: 43.128128
+----------------------------------------
+
+Verilog
+time : 
+	MIN slack: 16740.3
+	MAX slack: 16894.5
+	MAX delay: 2759.7
+
+area:
+	0.075 x 0.075
+	5669
+
+power: 18.264126
+----------------------------------------
