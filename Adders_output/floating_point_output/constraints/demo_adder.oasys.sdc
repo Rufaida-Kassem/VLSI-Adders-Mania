@@ -1,6 +1,6 @@
 #
 # Created by 
-#   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Sat Nov  5 21:16:32 2022
+#   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Sat Nov  5 21:59:42 2022
 # (C) Mentor Graphics Corporation
 #
 set_units -time ns -capacitance ff -resistance kohm -power nW -voltage V -current mA
