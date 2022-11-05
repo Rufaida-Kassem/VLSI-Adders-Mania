@@ -5,6 +5,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	FPA_tb
 
+} {} {}} {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v} {1 {vlog -work work -stats=none {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/FloatingPoint.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fpa
+-- Compiling module adder
+-- Compiling module addition_normaliser
+
+Top level modules:
+	fpa
+
 } {} {}} {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v} {1 {vlog -work work -stats=none {E:/Third Year/First Term/VLSI/Project/VLSI-Adders-Mania/Floating Point Adder/CLA_adder.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module full_adder

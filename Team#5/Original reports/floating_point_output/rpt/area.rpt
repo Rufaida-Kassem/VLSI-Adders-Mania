@@ -1,0 +1,15 @@
+Report Instance Areas: 
+-----+----------------------+-------------------+-----+---------
+     |Instance              |Module             |Cells|Cell Area
+-----+----------------------+-------------------+-----+---------
+1    |top                   |                   | 1461|     1929
+2    |  A1                  |adder              | 1290|     1631
+3    |    norm1             |addition_normaliser|  561|      676
+4    |    c1                |CLA_adder          |   77|      146
+5    |      genblk1_0_stage1|CLA_4bit__1_7      |    9|       20
+6    |      genblk1_1_stage1|CLA_4bit__1_15     |   11|       23
+7    |      genblk1_2_stage1|CLA_4bit__1_23     |   11|       23
+8    |      genblk1_3_stage1|CLA_4bit__1_31     |   11|       23
+9    |      genblk1_4_stage1|CLA_4bit__1_39     |   11|       23
+10   |      genblk1_5_stage1|CLA_4bit           |   11|       23
+-----+----------------------+-------------------+-----+---------

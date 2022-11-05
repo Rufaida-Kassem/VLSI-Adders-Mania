@@ -1,0 +1,46 @@
+Report Instance Areas: 
+-----+------------------+----------------+-----+---------
+     |Instance          |Module          |Cells|Cell Area
+-----+------------------+----------------+-----+---------
+1    |top               |                |  211|      263
+2    |  g0              |cbpa__1_50      |   52|       65
+3    |    rippleCarry   |rca32__1_49     |   40|       47
+4    |      fa0         |fulladder__1_48 |    5|        6
+5    |      genblk1_1_fa|fulladder__1_45 |    5|        6
+6    |      genblk1_2_fa|fulladder__1_42 |    5|        6
+7    |      genblk1_3_fa|fulladder__1_39 |    5|        6
+8    |      genblk1_4_fa|fulladder__1_36 |    5|        6
+9    |      genblk1_5_fa|fulladder__1_33 |    5|        6
+10   |      genblk1_6_fa|fulladder__1_30 |    5|        6
+11   |      genblk1_7_fa|fulladder__1_27 |    5|        6
+12   |  genblk1_1_g     |cbpa__1_80      |   52|       65
+13   |    rippleCarry   |rca32__1_79     |   40|       47
+14   |      fa0         |fulladder__1_78 |    5|        6
+15   |      genblk1_1_fa|fulladder__1_75 |    5|        6
+16   |      genblk1_2_fa|fulladder__1_72 |    5|        6
+17   |      genblk1_3_fa|fulladder__1_69 |    5|        6
+18   |      genblk1_4_fa|fulladder__1_66 |    5|        6
+19   |      genblk1_5_fa|fulladder__1_63 |    5|        6
+20   |      genblk1_6_fa|fulladder__1_60 |    5|        6
+21   |      genblk1_7_fa|fulladder__1_57 |    5|        6
+22   |  genblk1_2_g     |cbpa__1_110     |   52|       65
+23   |    rippleCarry   |rca32__1_109    |   40|       47
+24   |      fa0         |fulladder__1_108|    5|        6
+25   |      genblk1_1_fa|fulladder__1_105|    5|        6
+26   |      genblk1_2_fa|fulladder__1_102|    5|        6
+27   |      genblk1_3_fa|fulladder__1_99 |    5|        6
+28   |      genblk1_4_fa|fulladder__1_96 |    5|        6
+29   |      genblk1_5_fa|fulladder__1_93 |    5|        6
+30   |      genblk1_6_fa|fulladder__1_90 |    5|        6
+31   |      genblk1_7_fa|fulladder__1_87 |    5|        6
+32   |  genblk1_3_g     |cbpa            |   55|       69
+33   |    rippleCarry   |rca32           |   43|       51
+34   |      fa0         |fulladder__1_2  |    5|        6
+35   |      genblk1_1_fa|fulladder__1_5  |    5|        6
+36   |      genblk1_2_fa|fulladder__1_8  |    5|        6
+37   |      genblk1_3_fa|fulladder__1_11 |    5|        6
+38   |      genblk1_4_fa|fulladder__1_14 |    5|        6
+39   |      genblk1_5_fa|fulladder__1_17 |    5|        6
+40   |      genblk1_6_fa|fulladder__1_20 |    5|        6
+41   |      genblk1_7_fa|fulladder       |    5|        6
+-----+------------------+----------------+-----+---------

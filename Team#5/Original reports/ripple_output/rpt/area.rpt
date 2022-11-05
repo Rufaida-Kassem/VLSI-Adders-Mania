@@ -1,0 +1,38 @@
+Report Instance Areas: 
+-----+---------------+----------------+-----+---------
+     |Instance       |Module          |Cells|Cell Area
+-----+---------------+----------------+-----+---------
+1    |top            |                |  129|      164
+2    |  genblk1_0_FA |FullAdder__1_3  |    4|        5
+3    |  genblk1_1_FA |FullAdder__1_7  |    4|        5
+4    |  genblk1_2_FA |FullAdder__1_11 |    4|        5
+5    |  genblk1_3_FA |FullAdder__1_15 |    4|        5
+6    |  genblk1_4_FA |FullAdder__1_19 |    4|        5
+7    |  genblk1_5_FA |FullAdder__1_23 |    4|        5
+8    |  genblk1_6_FA |FullAdder__1_27 |    4|        5
+9    |  genblk1_7_FA |FullAdder__1_31 |    4|        5
+10   |  genblk1_8_FA |FullAdder__1_35 |    4|        5
+11   |  genblk1_9_FA |FullAdder__1_39 |    4|        5
+12   |  genblk1_10_FA|FullAdder__1_43 |    4|        5
+13   |  genblk1_11_FA|FullAdder__1_47 |    4|        5
+14   |  genblk1_12_FA|FullAdder__1_51 |    4|        5
+15   |  genblk1_13_FA|FullAdder__1_55 |    4|        5
+16   |  genblk1_14_FA|FullAdder__1_59 |    4|        5
+17   |  genblk1_15_FA|FullAdder__1_63 |    4|        5
+18   |  genblk1_16_FA|FullAdder__1_67 |    4|        5
+19   |  genblk1_17_FA|FullAdder__1_71 |    4|        5
+20   |  genblk1_18_FA|FullAdder__1_75 |    4|        5
+21   |  genblk1_19_FA|FullAdder__1_79 |    4|        5
+22   |  genblk1_20_FA|FullAdder__1_83 |    4|        5
+23   |  genblk1_21_FA|FullAdder__1_87 |    4|        5
+24   |  genblk1_22_FA|FullAdder__1_91 |    4|        5
+25   |  genblk1_23_FA|FullAdder__1_95 |    4|        5
+26   |  genblk1_24_FA|FullAdder__1_99 |    4|        5
+27   |  genblk1_25_FA|FullAdder__1_103|    4|        5
+28   |  genblk1_26_FA|FullAdder__1_107|    4|        5
+29   |  genblk1_27_FA|FullAdder__1_111|    4|        5
+30   |  genblk1_28_FA|FullAdder__1_115|    4|        5
+31   |  genblk1_29_FA|FullAdder__1_119|    4|        5
+32   |  genblk1_30_FA|FullAdder__1_123|    4|        5
+33   |  genblk1_31_FA|FullAdder       |    2|        3
+-----+---------------+----------------+-----+---------

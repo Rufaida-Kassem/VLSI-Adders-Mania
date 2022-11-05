@@ -1,0 +1,152 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+--------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: T[0]
+    (Clocked by vsysclk R)
+Endpoint: OF
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 2262.8
+Slack: 17237.2
+Logic depth: 65
+--------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-             
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)
+--------------------------------------------------------------------------------------------------------------------------------------
+T[0]                     {set_input_delay}        r   1000.0   1000.0   1000.0                        5.2     16.8      3    40,    0 
+rippleCarry/fa0/i_0_1/A->ZN
+                         OAI21_X4                rf   1015.4     15.4     14.9      0.5      0.0      0.7      4.6      1    40,   40 
+rippleCarry/fa0/i_0_0/A2->ZN
+                         NAND2_X4                fr   1037.6     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_1_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1053.1     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_1_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1075.3     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_2_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1090.8     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_2_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1113.0     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_3_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1128.5     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_3_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1150.7     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_4_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1166.2     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_4_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1188.4     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_5_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1203.9     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_5_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1226.1     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_6_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1241.6     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_6_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1263.8     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_7_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1279.3     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_7_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1301.5     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_8_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1317.0     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_8_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1339.2     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_9_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1354.7     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_9_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1376.9     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_10_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1392.4     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_10_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1414.6     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_11_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1430.1     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_11_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1452.3     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_12_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1467.8     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_12_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1490.0     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_13_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1505.5     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_13_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1527.7     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_14_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1543.2     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_14_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1565.4     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_15_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1580.9     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_15_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1603.1     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_16_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1618.6     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_16_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1640.8     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_17_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1656.3     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_17_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1678.5     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_18_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1694.0     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_18_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1716.2     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_19_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1731.7     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_19_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1753.9     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_20_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1769.4     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_20_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1791.6     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_21_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1807.1     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_21_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1829.3     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_22_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1844.8     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_22_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1867.0     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_23_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1882.5     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_23_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1904.7     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_24_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1920.2     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_24_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1942.4     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_25_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1957.9     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_25_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   1980.1     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_26_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   1995.6     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_26_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2017.8     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_27_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   2033.3     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_27_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2055.5     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_28_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   2071.0     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_28_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2093.2     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_29_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   2108.7     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_29_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2130.9     22.2     22.2      0.0      9.5      1.9     12.8      3    40,   40 
+rippleCarry/genblk1_30_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   2146.4     15.5     15.5      0.0     14.0      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_30_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2173.5     27.1     27.1      0.0      9.5      3.3     20.9      5    40,   40 
+rippleCarry/genblk1_31_fa/i_0_1/B1->ZN
+                         OAI21_X4                rf   2190.5     17.0     16.9      0.1     18.6      0.7      4.6      1    40,   40 
+rippleCarry/genblk1_31_fa/i_0_0/A2->ZN
+                         NAND2_X4                fr   2211.1     20.6     20.6      0.0      9.5      2.1     10.1      3    40,   40 
+rippleCarry/i_0_0/C2->ZN AOI211_X4               rf   2262.3     51.2     51.2      0.0     12.6      5.5     15.5      1    40,   40 
+OF                                                f   2262.8      0.5               0.5      7.8                             81,   37 
+--------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O
