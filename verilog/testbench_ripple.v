@@ -13,7 +13,7 @@ a= 32'h7fffffff;
 b= 32'h7fffffff;
 Cin = 0;
 #100
-if(sum==32'hfffffffe && Cout==0 &&of==1)begin
+if(sum==32'hfffffffe && Cout==0 &&of==0)begin
 $display("Test case 1 PASSED SUCCESSFULY!\n");
 end else begin
 $display ("Test case 1 FAILED\n");
@@ -24,7 +24,7 @@ a = 32'h8fffffff;
 b = 32'h8fffffff;
 Cin=0;
 #100
-if(sum==32'h1ffffffe && Cout==1 &&of==1)begin
+if(sum==32'h1ffffffe && Cout==1 &&of==0)begin
 $display("Test case 2 PASSED SUCCESSFULY!\n");
 end else begin
 $display ("Test case 2 FAILED\n");
